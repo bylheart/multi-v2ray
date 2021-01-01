@@ -77,9 +77,9 @@ source <(curl -sL https://multi.netlify.app/v2ray.sh) --remove
 
 ## 命令行参数
 ```bash
-v2ray/xray [-h|--help] [options]
-    -h, --help           查看帮助
-    -v, --version        查看版本号
+v2ray/xray [-h|help] [options]
+    -h, help             查看帮助
+    -v, version          查看版本号
     start                启动 V2Ray
     stop                 停止 V2Ray
     restart              重启 V2Ray
@@ -126,9 +126,6 @@ docker exec v2ray bash -c "v2ray info"
 systemctl stop firewalld.service
 systemctl disable firewalld.service
 ```
-
-## 变更记录
-查看 [Changelog](https://github.com/Jrohy/multi-v2ray/blob/master/Changelog.md)
 
 ## 建议
 安装完v2ray后强烈建议开启BBR等加速: [Linux-NetSpeed](https://github.com/chiakge/Linux-NetSpeed)  
