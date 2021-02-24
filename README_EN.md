@@ -20,7 +20,7 @@ a tool to manage v2ray/xray config json, support multiple user && group manage
 - Ban bittorrent
 - Range port
 - TcpFastOpen
-- Vmess/Socks5/MTproto share link
+- Vmess/VLESS/Socks5/MTproto share link
 - Support protocol modify:
   - TCP
   - Fake http
@@ -36,7 +36,8 @@ a tool to manage v2ray/xray config json, support multiple user && group manage
   - MTProto
   - Shadowsocks
   - Quic
-  - VLESS
+  - VLESS_TCP
+  - VLESS_TLS
   - VLESS_WS
   - VLESS_XTLS
   - Trojan
